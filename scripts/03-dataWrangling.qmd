@@ -6,48 +6,72 @@ editor: visual
 
 ## Objectives
 
-The goal of this module is to provide an overview of all the key tools for transforming a data frame.
+- The goal of this module is to provide an overview of all the key tools for transforming a data.
 
-Learn a consistent way to organize your data in R using a system called tidy data. 
+- Learn a consistent way to organize your data in R using a system called 
+tidy data
+
+- Understand why and how to transform your data in a reproducible way
+
+- Almost like mentorship in-lab
+  - Show them, watch them do it, let them do it independently 
 
 ## What data?
 
-Tidy Tuesday
-Make their own dataframe?
-Fun data? or science data?
+- palmerpenguins 
+  - installed R packages
+- tidytuesday?
+  - note: can be difficult depending on versioning
+- Make their own dataframe? 
+- Fun data? or science data?
+
+## Case study
+- Introduce premise that you need to get data into certain format
+- Create a diagram that shows what we want in plain language
+- Write out a series of steps to get to the product
+- What the fuck is data wrangling?
 
 ## Approaches
+
+- Establish what key functions we want to cover/introduce
+- Lorrie has used one dataset to showcase all these
+- Brian also agrees that we can use one dataset
+- Lorrie thinks base R first and ~maybe~ tidyverse. Keep them separate.
+- Eventually, we want to be able to show them how to do it in both base R and tidyverse
 
 Base R
 - Positional indices
 - Logical indices (subset())
-- Ordering dataframes
-- Adding columns and rows (cbind(), rbind())
-- Convert to a data type/data structure of interest
-- Merging data frames (merge())
-- Reshaping data frames (reshape2: decast - long to wide, melt - wide to long)
+- Ordering dataframes 
+- Adding columns and rows (cbind(), rbind()) 
+- Convert to a data type/data structure of interest 
+- Merging data frames (merge()) - Reshaping data frames (reshape2: decast long to wide, melt - wide to long)
 
 tidyverse
-- “Row” verbs: filter, arrange, distinct
-- “Columns” verbs: mutate, select, rename, relocate
-- “Groups” verbs: group_by, summarize, slice
-- Ungrouping, .by
-- The pipe (“and then”)
+- “Row” verbs: filter, arrange, distinct 
+- “Columns” verbs: mutate, select, rename, relocate 
+- “Groups” verbs: group_by, summarize, slice 
+- Ungrouping, .by 
+- The pipe (“and then”) 
 - pivot_longer() & pivot_wider()
 
-Case studies
+## Assignments
+
+-   Recreation example
+    - Can you transform the data to look like this example?
+    - Here's a dataset, here's what I want it to look like
+    - Here's data, what are you curious about the dataset? How do you plan to figure that out?
+    - Here's data, we want to generate this type of plot and/or we want to do this type of analysis... how do you do that?
+
+-   Troubleshooting code
+    -   Create script that breaks and have them fix it
+
+
+Lessons from BIOS 611:
+- cool dataset, lots of data cleaning to do
 
 ## Meeting cadence?
-- Biweekly?
 
-## Assignments
-- Recreation example
-    - Can you transform the data to look like this example?
-- Creativity Example
-    - (I don’t think this is applicable this module?)
-- Use any of the methods we talked about 
-    - Create data 
-        - Certain # of columns, some required, some not
-            - For example, names, ages, etc
-- Troubleshooting code 
-    - Create script that breaks and have them fix it
+-   Meet as needed, mostly remotely
+- 
+
