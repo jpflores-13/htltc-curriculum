@@ -1,0 +1,33 @@
+---
+title: "01-codingBasics"
+format: html
+editor: visual
+---
+
+## Objectives
+
+
+## What data?
+
+Tidy Tuesday
+Make their own dataframe?
+Fun data? or science data?
+
+## Approaches
+
+## Case studies
+
+## Meeting cadence?
+- Biweekly?
+
+## Assignments
+- Recreation example
+    - Can you transform the data to look like this example?
+- Creativity Example
+    - (I don’t think this is applicable this module?)
+- Use any of the methods we talked about 
+    - Create data 
+        - Certain # of columns, some required, some not
+            - For example, names, ages, etc
+- Troubleshooting code 
+    - Create script that breaks and have them fix it

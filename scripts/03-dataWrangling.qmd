@@ -1,0 +1,53 @@
+---
+title: "03-dataWrangling"
+format: html
+editor: visual
+---
+
+## Objectives
+
+The goal of this module is to provide an overview of all the key tools for transforming a data frame.
+
+Learn a consistent way to organize your data in R using a system called tidy data. 
+
+## What data?
+
+Tidy Tuesday
+Make their own dataframe?
+Fun data? or science data?
+
+## Approaches
+
+Base R
+- Positional indices
+- Logical indices (subset())
+- Ordering dataframes
+- Adding columns and rows (cbind(), rbind())
+- Convert to a data type/data structure of interest
+- Merging data frames (merge())
+- Reshaping data frames (reshape2: decast - long to wide, melt - wide to long)
+
+tidyverse
+- “Row” verbs: filter, arrange, distinct
+- “Columns” verbs: mutate, select, rename, relocate
+- “Groups” verbs: group_by, summarize, slice
+- Ungrouping, .by
+- The pipe (“and then”)
+- pivot_longer() & pivot_wider()
+
+Case studies
+
+## Meeting cadence?
+- Biweekly?
+
+## Assignments
+- Recreation example
+    - Can you transform the data to look like this example?
+- Creativity Example
+    - (I don’t think this is applicable this module?)
+- Use any of the methods we talked about 
+    - Create data 
+        - Certain # of columns, some required, some not
+            - For example, names, ages, etc
+- Troubleshooting code 
+    - Create script that breaks and have them fix it

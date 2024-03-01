@@ -1,0 +1,37 @@
+---
+title: "02-dataVisualization"
+format: html
+editor: visual
+---
+
+## Objectives
+
+
+## What data?
+
+Tidy Tuesday
+Make their own dataframe?
+Fun data? or science data?
+
+## Approaches
+
+Base R
+
+tidyverse
+
+Case studies
+
+## Meeting cadence?
+- Biweekly?
+
+## Assignments
+- Recreation example
+    - Can you transform the data to look like this example?
+- Creativity Example
+    - 
+- Use any of the methods we talked about 
+    - Create data 
+        - Certain # of columns, some required, some not
+            - For example, names, ages, etc
+- Troubleshooting code 
+    - Create script that breaks and have them fix it
