@@ -6,32 +6,88 @@ editor: visual
 
 ## Objectives
 
+- Understand the basics of the different graphics engines in R
+-  Evaluate when and how to visualize distributions of single variables as well as visualizing relationships between two or more variables.
+- Understand how to visualize your data using ggplot2 or base R
+- Learn how to save plots effectively and efficiently
+- Visualization principles
+  - if text on label is wrong size, how can we adjust?
+- touch on design principles
+- Tuesday is teaching day
+- Thursday is be creative day where we can introduce a case study 
+- separated by data types so that we are getting them to think!
+
+## Revisiting datatypes, introduce data we're using. Here are the different types we're going to be using.
+
+## Make question-based! Here's data and types.. what questions do you have about the data?
+- great questions kiddos!
+
+## Here's these.. here's that (plots)
+- probably start with scatterplot and give example
+- next plot, example, talk through (boxplot + histogram)
+- next plot, example, etc (multiple boxplots + bar plots)
+
+## Flow of the walkthroughs:
+- First plot is how to make it
+- Second plot: add design thing (layers)
+- Third plot: change plot type and also how to change text
 
 ## What data?
 
-Tidy Tuesday
-Make their own dataframe?
-Fun data? or science data?
+- tidytuesday 
+- spotify 
+- Kaggle
+- Make their own dataframe? 
+- Fun data? or science data?
+- something you can plot in multiple ways and one where plots will be interesting to students. 
+opportunity for students to see something new. something not too complicated
 
 ## Approaches
 
-Base R
+For examples, really focus on 1-2 visualizations and give them resources to figure out how to create other
+types of plots
 
-tidyverse
+Directory of visualizations:
+- amounts
+  - bars (single, stacked, grouped, heatmap)
+- distributions (histogram, density plot, cumulative density, QQ, boxplots, violin, strip,
+stacked histograms, overlapping densities, ridgeline plots)
+- proportions
+  - pie charts, bar charts, stacked bar charts
+- xy relationship
+  - scatter plot, bubble, slope chart, paired scatter plot, correlogram, line)
+- uncertainty 
+  - error bars
 
-Case studies
+Simple base R plots + tidyverse equivalents
+- scatterplots
+- histograms
+- box and violin plots
+- pairs plot
+- frequency polygons
 
 ## Meeting cadence?
-- Biweekly?
 
-## Assignments
-- Recreation example
-    - Can you transform the data to look like this example?
-- Creativity Example
-    - 
-- Use any of the methods we talked about 
-    - Create data 
-        - Certain # of columns, some required, some not
-            - For example, names, ages, etc
-- Troubleshooting code 
-    - Create script that breaks and have them fix it
+-   Biweekly?
+
+## Activities
+
+-   Recreation example (first day)
+    -   Can you transform the data to look like this example?
+-   Creativity Example (second day - almost like a mini project)
+    -   Given this data, what types of visualizations do you want to create? 
+-   Troubleshooting code
+    -   Create script that breaks and have them fix it
+
+To-do:
+- Clean spotify dataset and save it as a csv or something
+- look for datasets (whether it be biology or not) that are relatable to biomedical students (in terms of data types, etc)
+- think of guiding questions for creativity day (day 2)
+- think of backpocket questions/concrete ideas on visualizations they can create
+
+
+Links shared:
+- https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+- https://clauswilke.com/dataviz/directory-of-visualizations.html#amounts
+- https://docs.google.com/presentation/d/1Pl6p67b6RH9xrbW4cTpVqZLXU9hBc8A5VJ1YIt9QAiY/edit#slide=id.gf43cb0d574_0_46
+- 

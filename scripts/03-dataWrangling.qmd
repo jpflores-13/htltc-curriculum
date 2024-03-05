@@ -16,6 +16,8 @@ tidy data
 - Almost like mentorship in-lab
   - Show them, watch them do it, let them do it independently 
 
+### Install Packages
+
 ## What data?
 
 - palmerpenguins 
